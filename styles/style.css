@@ -9,7 +9,6 @@ body{
 }
 .container{
     max-width: 1200px;
-    background-color: #fafafa;
     margin: 0 auto;
     padding: 10px;
 }
@@ -31,6 +30,9 @@ a{
 .nav-logo a{
     font-weight: bold;
     font-size: 24px;
+}
+.top-banner{
+    display: flex;
 }
 .top-banner h1{
     font-size: 52px;
