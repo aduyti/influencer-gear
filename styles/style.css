@@ -52,6 +52,12 @@ a{
     margin-left: 10px;
     color: white;
 }
+.banner-image {
+    animation: dansingCamera 5s infinite;
+}
+@keyframes dansingCamera {
+    50% {   transform: rotate(30deg);   }
+}
 .popular-collection>h1{
     font-size: 28px;
     text-align: center;
@@ -98,6 +104,13 @@ a{
     font-weight: bold;
     color: #000000b3;
     font-size: 16px;
+}
+.product-image{
+    overflow: hidden;
+}
+.product:hover .product-image>img{
+    transform: scale(1.3);
+    transition: transform .5s ease-in-out;
 }
 .product-info div{
     margin: 8px 0px 12px 0px;
